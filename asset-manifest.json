@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Doraemon/static/css/main.ba49ec77.chunk.css",
+    "main.js": "/Doraemon/static/js/main.6eb02ac5.chunk.js",
+    "main.js.map": "/Doraemon/static/js/main.6eb02ac5.chunk.js.map",
+    "runtime~main.js": "/Doraemon/static/js/runtime~main.d571eac4.js",
+    "runtime~main.js.map": "/Doraemon/static/js/runtime~main.d571eac4.js.map",
+    "static/js/2.b41502e9.chunk.js": "/Doraemon/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/Doraemon/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/Doraemon/index.html",
+    "precache-manifest.7e9aa8bad015fe241038040bee7b95a5.js": "/Doraemon/precache-manifest.7e9aa8bad015fe241038040bee7b95a5.js",
+    "service-worker.js": "/Doraemon/service-worker.js",
+    "static/css/main.ba49ec77.chunk.css.map": "/Doraemon/static/css/main.ba49ec77.chunk.css.map",
+    "static/media/logo.svg": "/Doraemon/static/media/logo.ee7cd8ed.svg"
+  }
+}
