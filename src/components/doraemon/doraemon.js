@@ -1,5 +1,5 @@
 import React from "react"
-import  '../css/doraemon.css'
+import  './doraemon.css'
 class doraemon extends React.Component{
   constructor(props){
     super(props);

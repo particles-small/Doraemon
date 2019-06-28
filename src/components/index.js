@@ -23,10 +23,10 @@ class Index extends React.Component{
       this.setState({})
   }
   render(){
-    var Ab=require('./doraemon.js').default;
-
+    var Ab=require('./doraemon/doraemon.js').default;
+    // var Ab=require('./peppaPig/peppaPig.js').default;
     return(
-      <div style={{display:"flex",justifyContent:"center",paddingTop:50}}>
+      <div style={{width:'100%',display:"flex",justifyContent:"center",paddingTop:50}}>
         <Ab start={this.start} end={this.end} cur={this.state.step}></Ab>
       </div>
     )
