@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Doraemon/static/css/main.6b0d167c.chunk.css",
-    "main.js": "/Doraemon/static/js/main.fb099d8c.chunk.js",
-    "main.js.map": "/Doraemon/static/js/main.fb099d8c.chunk.js.map",
+    "main.js": "/Doraemon/static/js/main.7cfe56c5.chunk.js",
+    "main.js.map": "/Doraemon/static/js/main.7cfe56c5.chunk.js.map",
     "runtime~main.js": "/Doraemon/static/js/runtime~main.d571eac4.js",
     "runtime~main.js.map": "/Doraemon/static/js/runtime~main.d571eac4.js.map",
     "static/js/2.e703e8cc.chunk.js": "/Doraemon/static/js/2.e703e8cc.chunk.js",
     "static/js/2.e703e8cc.chunk.js.map": "/Doraemon/static/js/2.e703e8cc.chunk.js.map",
     "index.html": "/Doraemon/index.html",
-    "precache-manifest.8f5c1aeef12c31e00b15a774abdcbefd.js": "/Doraemon/precache-manifest.8f5c1aeef12c31e00b15a774abdcbefd.js",
+    "precache-manifest.c8adcf9cab795cd0bc63955f6209baf3.js": "/Doraemon/precache-manifest.c8adcf9cab795cd0bc63955f6209baf3.js",
     "service-worker.js": "/Doraemon/service-worker.js",
     "static/css/main.6b0d167c.chunk.css.map": "/Doraemon/static/css/main.6b0d167c.chunk.css.map"
   }
