@@ -6,38 +6,9 @@
   transition: all 1s;
 }
 
-.wrapper {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-div:not(.wrapper) {
+.peppaPig div:not(.wrapper) {
   position: absolute;
 }
-
-.tip {
-  position: absolute;
-  top:50px;
-  left: 50px;
-  padding: 20px;
-  font-size: 20px;
-  color: #3c3c3c;
-  animation: breath 0.7s infinite;
-  -webkit-animation: breath 0.7s infinite;
-}
-
-@keyframes breath{
-  0%{
-    box-shadow: 0 0 10px rgba(0,0,0,1)
-  }
-  100%{
-    box-shadow: 0 0 10px rgba(0,0,0,0.2)
-  }
-}
-
 
 .peppaPig {
   position: relative;
@@ -45,7 +16,7 @@ div:not(.wrapper) {
   width: 372px;
 }
 
-.pig_head {
+.peppaPig .pig_head {
   z-index: 5;
   border: 6px solid #EE96BD;
   background: #ffb3da;
@@ -57,7 +28,7 @@ div:not(.wrapper) {
   transform: rotate(39deg);
 }
 
-.ear.left {
+.peppaPig .ear.left {
   z-index: -1;
   width: 38px;
   height: 70px;
@@ -69,7 +40,7 @@ div:not(.wrapper) {
   transform: rotate(16deg);
 }
 
-.ear.right {
+.peppaPig .ear.right {
   z-index: -1;
   width: 38px;
   height: 66px;
@@ -81,7 +52,7 @@ div:not(.wrapper) {
   transform: rotate(32deg);
 }
 
-.pig_nose {
+.peppaPig .pig_nose {
   z-index: 10;
   height: 75px;
   width: 52px;
@@ -93,7 +64,7 @@ div:not(.wrapper) {
   transform: rotate(27deg);
 }
 
-.cover {
+.peppaPig .cover {
   z-index: 5;
   height: 170px;
   width: 180px;
@@ -104,7 +75,7 @@ div:not(.wrapper) {
   transform: rotate(17deg);
 }
 
-.pig_nose::after {
+.peppaPig .pig_nose::after {
   content: '';
   z-index: 3;
   position: absolute;
@@ -116,7 +87,7 @@ div:not(.wrapper) {
   left: 4px;
 }
 
-.pig_nose::before {
+.peppaPig .pig_nose::before {
   content: '';
   z-index: 3;
   position: absolute;
@@ -129,12 +100,12 @@ div:not(.wrapper) {
 }
 
 
-.eye {
+.peppaPig .eye {
   background: white;
   border: 6px solid #EE95C1;
 }
 
-.eye.left {
+.peppaPig .eye.left {
   z-index: 10;
   border-radius: 50% 57% 47% 50%/50% 50% 50% 50%;
   height: 38px;
@@ -143,7 +114,7 @@ div:not(.wrapper) {
   left: 146px;
 }
 
-.eye.right {
+.peppaPig .eye.right {
   z-index: 10;
   border-radius: 50% 50% 50% 50%/55% 55% 45% 45%;
   height: 40px;
@@ -152,7 +123,7 @@ div:not(.wrapper) {
   left: 195px;
 }
 
-.eye.left::before {
+.peppaPig .eye.left::before {
   content: '';
   position: absolute;
   height: 14px;
@@ -163,7 +134,7 @@ div:not(.wrapper) {
   left: 1px;
 }
 
-.eye.right::before {
+.peppaPig .eye.right::before {
   content: '';
   position: absolute;
   height: 14px;
@@ -174,7 +145,7 @@ div:not(.wrapper) {
   left: 1px;
 }
 
-.nose_under {
+.peppaPig .nose_under {
   width: 95px;
   height: 5px;
   border-radius: 50% 50% 50% 50%/ 0% 0% 100% 100%;
@@ -188,7 +159,7 @@ div:not(.wrapper) {
   left: 45px;
 }
 
-.pig_jaw {
+.peppaPig .pig_jaw {
   width: 103px;
   height: 100px;
   border-radius: 0% 0% 0% 76%/ 0% 0% 0% 74%;
@@ -204,7 +175,7 @@ div:not(.wrapper) {
   z-index: 7;
 }
 
-.bottom {
+.peppaPig .bottom {
   z-index: 10;
   height: 5px;
   width: 10px;
@@ -214,7 +185,7 @@ div:not(.wrapper) {
   left: 192px;
 }
 
-.fixface {
+.peppaPig .fixface {
   z-index: 8;
   height: 86px;
   width: 143px;
@@ -225,7 +196,7 @@ div:not(.wrapper) {
   transform: rotate(18deg);
 }
 
-.pig_mouse>.part1 {
+.peppaPig .pig_mouse>.part1 {
   z-index: 8;
   height: 45px;
   width: 95px;
@@ -237,7 +208,7 @@ div:not(.wrapper) {
   transform: rotate(20deg);
 }
 
-.pig_mouse>.part2 {
+.peppaPig .pig_mouse>.part2 {
   z-index: 9;
   height: 27px;
   width: 100px;
@@ -250,7 +221,7 @@ div:not(.wrapper) {
   transform: rotate(20deg);
 }
 
-.pig_mouse>.part3 {
+.peppaPig .pig_mouse>.part3 {
   z-index: 10;
   height: 40px;
   width: 120px;
@@ -261,7 +232,7 @@ div:not(.wrapper) {
   transform: rotate(20deg);
 }
 
-.flush {
+.peppaPig .flush {
   z-index: 10;
   width: 49px;
   height: 59px;
@@ -272,7 +243,7 @@ div:not(.wrapper) {
   transform: rotate(26deg);
 }
 /* 身体 */
-.pig_body {
+.peppaPig .pig_body {
   z-index: 4;
   width: 240px;
   height: 197px;
@@ -284,7 +255,7 @@ div:not(.wrapper) {
 }
 
  /* 脚 */
-.foot {
+ .peppaPig .foot {
   z-index: 3;
   height: 70px;
   width: 12px;
@@ -292,17 +263,17 @@ div:not(.wrapper) {
   border-radius: 100% 100% 100% 100%/ 50% 50% 21% 20%;
 }
 
-.foot.left {
+.peppaPig .foot.left {
   top: 394px;
   left: 176px;
 }
 
-.foot.right {
+.peppaPig .foot.right {
   top: 395px;
   left: 263px;
 }
 
-.shoes {
+.peppaPig .shoes {
   width: 51px;
   height: 14px;
   border-radius: 58% 187% 180% 50%/ 130% 123% 113% 100%;
@@ -310,18 +281,18 @@ div:not(.wrapper) {
   z-index: 3;
 }
 
-.shoes.right {
+.peppaPig .shoes.right {
   top: 457px;
   left: 227px;
 }
 
-.shoes.left {
+.peppaPig .shoes.left {
   top: 457px;
   left: 138px;
 }
 
 /* 阴影 */
-.shadow {
+.peppaPig .shadow {
   width: 240px;
   height: 50px;
   border-radius: 50% 50% 50% 50%/ 50% 50% 50% 50%;
@@ -331,7 +302,7 @@ div:not(.wrapper) {
 }
 
 /* 左手 */
-.left_hand>.finger_top {
+.peppaPig .left_hand>.finger_top {
   width: 10px;
   height: 26px;
   background: #FFBBE0;
@@ -341,7 +312,7 @@ div:not(.wrapper) {
   transform: rotate(90deg);
 }
 
-.left_hand>.finger_middle {
+.peppaPig .left_hand>.finger_middle {
   width: 78px;
   height: 12px;
   border-radius: 100% 100% 100% 17%/ 100% 90% 16% 90%;
@@ -351,7 +322,7 @@ div:not(.wrapper) {
   left: 50px;
 }
 
-.left_hand>.finger_bottom {
+.peppaPig .left_hand>.finger_bottom {
   z-index: 5;
   width: 20px;
   height: 9px;
@@ -363,7 +334,7 @@ div:not(.wrapper) {
 }
 
 /* 右手 */
-.right_hand>.finger_top {
+.peppaPig .right_hand>.finger_top {
   z-index: 5;
   width: 11px;
   height: 29px;
@@ -374,7 +345,7 @@ div:not(.wrapper) {
   transform: rotate(85deg);
 }
 
-.right_hand>.finger_middle {
+.peppaPig .right_hand>.finger_middle {
   z-index: 5;
   width: 78px;
   height: 11px;
@@ -385,7 +356,7 @@ div:not(.wrapper) {
   transform: rotate(28deg);
 }
 
-.right_hand>.finger_bottom {
+.peppaPig .right_hand>.finger_bottom {
   width: 25px;
   height: 10px;
   border-radius: 60% 59% 65% 90%/ 100% 90% 89% 90%;
@@ -397,7 +368,7 @@ div:not(.wrapper) {
 }
 
 /* 尾巴 */
-.tail_1 {
+.peppaPig .tail_1 {
   width: 20px;
   height: 9px;
   background-color: #ffbadf;
@@ -407,7 +378,7 @@ div:not(.wrapper) {
   transform: rotate(-9deg);
 }
 
-.tail_2 {
+.peppaPig .tail_2 {
   width: 23px;
   height: 27px;
   background: #fff;
@@ -418,7 +389,7 @@ div:not(.wrapper) {
 }
 
 
-.tail_3 {
+.peppaPig .tail_3 {
   width: 20px;
   height: 9px;
   background-color: #ffbadf;
@@ -428,7 +399,7 @@ div:not(.wrapper) {
   transform: rotate(23deg);
 }
 
-.tail_4 {
+.peppaPig .tail_4 {
   width: 26px;
   height: 9px;
   background-color: #ffbadf;
