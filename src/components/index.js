@@ -1,6 +1,6 @@
 import React from "react"
 import "../css/index.css"
-let timer;
+let timer,total,tips;
 class Index extends React.Component{
   constructor(props){
     super(props);
@@ -10,6 +10,8 @@ class Index extends React.Component{
     }
   }
   start=(steps,textArr)=>{
+    total=steps;
+    tips=textArr;
     timer=setInterval(() => {
       let curstep=this.state.step;
       if(curstep>=steps){
@@ -28,8 +30,9 @@ class Index extends React.Component{
   pause(e){
     let val=e.target.flag;
     e.target.flag=val?0:1;
+    console.log(val)
     if(val){
-      this.start()
+      this.start(total,tips)
     }
     else{
       clearInterval(timer);
