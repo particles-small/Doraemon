@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "debc69c92fc8b6138ab59b753a306ece",
+    "revision": "c8fa34ee7a7643121ac85da76b2c5e0e",
     "url": "/Doraemon/index.html"
   },
   {
-    "revision": "7bd4a4c7e92631729b6e",
+    "revision": "c71d710517cb02053e37",
     "url": "/Doraemon/static/css/main.6b0d167c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Doraemon/static/js/2.e703e8cc.chunk.js"
   },
   {
-    "revision": "7bd4a4c7e92631729b6e",
-    "url": "/Doraemon/static/js/main.7cfe56c5.chunk.js"
+    "revision": "c71d710517cb02053e37",
+    "url": "/Doraemon/static/js/main.7bb1fd3d.chunk.js"
   },
   {
     "revision": "9ce91ee5f1ec82491815",
